@@ -40,13 +40,13 @@ document.body.removeChild(imgLink1);
       <div className="container about px-5">
         <h1 className="text-center text-white mt-5">About Us</h1>
         <p>
-          My name is K.Thanga Rajan and I come from Tenkasi. I am study in
-          Punitha Arulappar High Secondary school in avudayanoor in Tenkasi I
-          completed B.sc computer science from Thiruvalluvar college in
-          pavanasam Tenkasi . I am pass out in 2023. After college over i want 6
+          My name is K.Thanga Rajan and I come from Tenkasi. I have completed school in
+          Punitha Arulappar High Secondary school ,Avudayanoor, Tenkasi. I have
+          completed B.sc computer science in Thiruvalluvar college ,
+          Pavanasam ,Tenkasi . I am pass out in 2023. After college over i want 6
           months course. My Course Name Front End Developer Using With React Js
-          and my Institude name is cadd expert in Tenkasi. Coming to My
-          Strengths I am a quick learner and a hard worker. My short-term goal
+          and my Institude name is cadd expert in Tenkasi. My
+          Strengths are I am a quick learner and a hard worker. My short-term goal
           is to find work in a well-known organization like yours. My long-term
           goal is to attain a leading position in my profession.
         </p>

@@ -4,7 +4,7 @@ import About from "./About";
 import img from './Image/kt.png'
 import Aos from "aos";
 import "aos/dist/aos.css"; 
-import { useTypewriter,Cursor } from "react-simple-typewriter";
+import { useTypewriter} from "react-simple-typewriter";
 
 export default function Home() {
   useEffect(()=>{

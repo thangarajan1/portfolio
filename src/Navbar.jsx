@@ -7,9 +7,12 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a class="navbar-brand" href="#">
+          
+
+          <Link to={"/"} className="navbar-brand">
             Thanga Rajan K
-          </a>
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -40,13 +43,19 @@ export default function Navbar() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link to={"/"} className="nav-link">Home</Link>
+                  <Link to={"/"} className="nav-link">
+                    Home
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/about"} className="nav-link">About</Link>
+                  <Link to={"/about"} className="nav-link">
+                    About
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link to={"/contact"} className="nav-link">Contact</Link>
+                  <Link to={"/contact"} className="nav-link">
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>

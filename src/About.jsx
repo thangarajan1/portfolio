@@ -3,6 +3,7 @@ import img from "./Image/Certificate/1.jpeg";
 import img1 from "./Image/Certificate/2.jpeg";
 import img2 from "./Image/Certificate/resume.jpeg";
 
+
 export default function About() {
   function handleDownload() {
 const imgCadd = document.querySelector(".cadd")
@@ -39,24 +40,26 @@ document.body.removeChild(imgLink1);
     <>
       <div className="container about px-5">
         <h1 className="text-center text-white mt-5">About Us</h1>
-        <p>
-          My name is K.Thanga Rajan and I come from Tenkasi. I have completed school in
-          Punitha Arulappar High Secondary school ,Avudayanoor, Tenkasi. I have
-          completed B.sc computer science in Thiruvalluvar college ,
-          Pavanasam ,Tenkasi . I am pass out in 2023. After college over i want 6
-          months course. My Course Name Front End Developer Using With React Js
-          and my Institude name is cadd expert in Tenkasi. My
-          Strengths are I am a quick learner and a hard worker. My short-term goal
-          is to find work in a well-known organization like yours. My long-term
-          goal is to attain a leading position in my profession.
-        </p>
+        <div data-aos="zoom-in">
+          <p>
+            My name is K.Thanga Rajan and I come from Tenkasi. I have completed
+            school in Punitha Arulappar High Secondary school ,Avudayanoor,
+            Tenkasi. I have completed B.sc computer science in Thiruvalluvar
+            college , Pavanasam ,Tenkasi . I am pass out in 2023. After college
+            over i want 6 months course. My Course Name Front End Developer
+            Using With React Js and my Institude name is cadd expert in Tenkasi.
+            My Strengths are I am a quick learner and a hard worker. My
+            short-term goal is to find work in a well-known organization like
+            yours. My long-term goal is to attain a leading position in my
+            profession.
+          </p>
+        </div>
         <h3>Thank You !</h3>
       </div>
       <div className="container mt-5 px-3 certificate">
         <h2>My Course Certificate And My Resume</h2>
         <div className="row d-flex justify-content-center mt-5">
-
-          <div className="col-md-3 my-3">
+          <div className="col-md-3 my-3" data-aos="fade-right">
             <div>
               <img src={img} width={"100%"} alt="" className="cadd" />
               <img src={img1} width={"100%"} alt="" className="d-none cadd1" />
@@ -68,7 +71,7 @@ document.body.removeChild(imgLink1);
               Download
             </button>
           </div>
-          <div className="col-md-3 my-3">
+          <div className="col-md-3 my-3" data-aos="fade-left">
             <div>
               <img className="resume1" src={img2} width={"100%"} alt="" />
             </div>

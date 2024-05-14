@@ -1,7 +1,28 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useTypewriter } from "react-simple-typewriter";
 
 export default function Contact() {
+
+const [nameEffect] = useTypewriter({
+  words: ["K.Thanga Rajan"],
+  loop: {},
+  typeSpeed: 100,
+  deleteSpeed: 40,
+});
+const [emailEffect] = useTypewriter({
+  words: ["saaralk.t.rajan2@gmail.com"],
+  loop: {},
+  typeSpeed: 100,
+  deleteSpeed: 40,
+});
+const [addressEffect] = useTypewriter({
+  words: ["Pathiralaliyamman Kovil Street ,Thippanam patty, Tenkasi - 627 808"],
+  loop: {},
+  typeSpeed: 100,
+  deleteSpeed: 40,
+});
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -35,12 +56,12 @@ export default function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 contact px-5">
-            <h4>Name : K.Thanga Rajan</h4>
+            <h4>Name : {nameEffect}</h4>
 
             <p>
               Email :
               <a href="mailto:saaralk.t.rajan2@gmail.com">
-                saaralk.t.rajan2@gmail.com
+                {emailEffect}
               </a>
             </p>
             <p>
@@ -51,9 +72,7 @@ export default function Contact() {
               <p>
                 2/95,
                 <br />
-                Pathiralaliyamman Kovil Street,
-                <br />
-                Thippanam patty, Tenkasi - 627 808{" "}
+               {addressEffect}
               </p>
             </address>
           </div>

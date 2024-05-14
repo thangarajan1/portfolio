@@ -28,45 +28,15 @@ p {
   text-shadow: 0px 0px 1px white, 1px 1px 2px black, 2px 2px 3px white;
   position: relative;
 }
-.home p::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(90, 88, 88);
-  animation: rightShow 1s ease forwards;
-  animation-delay: 1.5s;
-}
+
 .home h2 {
   font-family: "Dancing Script", cursive;
   text-shadow: 0px 0px 1px white, 1px 1px 2px black, 2px 2px 3px white;
   position: relative;
   width: 250px;
 }
-.home h2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(90, 88, 88);
-  animation: rightShow 1s ease forwards;
-  animation-delay: 1.3s;
-}
-.home h4::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(90, 88, 88);
-  animation: rightShow 1s ease forwards;
-  animation-delay: 1s;
-}
+
+
 
 .home h4 {
   font-family: "Chakra Petch", sans-serif;
@@ -153,9 +123,3 @@ input {
   text-shadow: 0px 0px 1px white, 1px 1px 2px black, 2px 2px 3px white;
 }
 
-
-@keyframes rightShow {
-  100% {
-    width: 0;
-  }
-}
